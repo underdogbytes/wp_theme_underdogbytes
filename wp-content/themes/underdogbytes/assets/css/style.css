@@ -1,0 +1,63 @@
+/* Fonts: Outfit */
+/* Adicione os imports aqui tudo */
+
+/* ==========================
+  ATENÇÃO:
+  - Desenvolvido mobile first
+  - Mantenha o código elegante :)
+
+  (é sério, sujeito a paulada)
+========================== */
+
+/* ==========================
+  Variáveis
+========================== */
+:root {
+  /* Estrutura Base */
+
+  /* Fonte */
+  --font-family: sans-serif;
+  --font-size: 12px;
+  --line-height: 1.6;
+  --color-text: #1e1e1e;
+
+  /* Estilo Base */
+  --background-color: #fafafa;
+
+  /* Componentes */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* Estrutura */
+  margin: 0;
+  padding: 0;
+
+  /* Estilo */
+  background-color: var(--background-color);
+
+  /* Texto */
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-optical-sizing: auto;
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+/* ==========================
+  Elementos Básicos
+========================== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==========================
+  Estrutura
+========================== */
