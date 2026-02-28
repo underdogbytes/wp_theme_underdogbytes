@@ -4,6 +4,9 @@
 # Não ignora o próprio .gitignore
 !.gitignore
 
+# Não ignora o readme
+!readme.md
+
 # Permite a pasta wp-content
 !wp-content/
 !wp-content/themes/
