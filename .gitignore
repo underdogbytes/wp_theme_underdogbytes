@@ -11,5 +11,8 @@
 !wp-content/
 !wp-content/themes/
 
-# Permite tudo dentro de themes
-!wp-content/themes/**
+# Permite só a pasta tema né ô chimpanzé
+!wp-content/
+!wp-content/themes/
+!wp-content/themes/underdogbytes/
+!wp-content/themes/underdogbytes/**
