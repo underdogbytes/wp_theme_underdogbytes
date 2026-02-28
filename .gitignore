@@ -1,0 +1,12 @@
+# Ignora tudo
+*
+
+# Não ignora o próprio .gitignore
+!.gitignore
+
+# Permite a pasta wp-content
+!wp-content/
+!wp-content/themes/
+
+# Permite tudo dentro de themes
+!wp-content/themes/**
